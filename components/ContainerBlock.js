@@ -1,6 +1,9 @@
 import React from "react";
 import Head from "next/head";
 import { useRouter } from "next/router";
+import Image from "next/image";
+import next from "next";
+
 
 export default function ContainerBlock({ children, ...customMeta }) {
     const router = useRouter();
@@ -41,8 +44,10 @@ export default function ContainerBlock({ children, ...customMeta }) {
                 )}
             </Head>
             
-            <main className="container w-full bg-background-image">
+            <main className="relative">
                 <div>{children}</div>
+
+                
             </main>
         </div>
     );

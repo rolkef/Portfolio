@@ -6,9 +6,15 @@
     "start": "next start"
   },
   "dependencies": {
+    "animejs": "^3.2.1",
+    "aos": "^3.0.0-beta.6",
     "next": "latest",
+    "next-themes": "^0.2.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-particles": "^2.1.4",
+    "sliderjs": "^2.0.0",
+    "tsparticles": "^2.1.4"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.8",
