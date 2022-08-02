@@ -11,7 +11,7 @@ const ParticleBackground = () => {
         console.log(container);
     };
     return ( 
-        <div className="MyApp">
+        <div className="particles">
             <Particles
                 id="tsparticles"
                 init={particlesInit}
@@ -38,7 +38,7 @@ const ParticleBackground = () => {
                     },
                     fullScreen: {
                         enable: true,
-                        zIndex: 1
+                        zIndex: -1
                     },
                     detectRetina: true,
                     duration: 0,

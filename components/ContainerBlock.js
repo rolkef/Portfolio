@@ -1,8 +1,6 @@
 import React from "react";
 import Head from "next/head";
 import { useRouter } from "next/router";
-import Image from "next/image";
-import next from "next";
 
 
 export default function ContainerBlock({ children, ...customMeta }) {
@@ -44,10 +42,8 @@ export default function ContainerBlock({ children, ...customMeta }) {
                 )}
             </Head>
             
-            <main className="relative">
+            < main className = "relative flex flex-col min-h-screen overflow-hidden" >
                 <div>{children}</div>
-
-                
             </main>
         </div>
     );
