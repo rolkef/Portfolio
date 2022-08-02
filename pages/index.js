@@ -47,7 +47,8 @@ export default function Home() {
       
       
       </div>
-      <div class="nav-container"><Link href="/about"><a class="nav-tab heartbeat">About</a></Link><Link href="/resume"><a class="nav-tab heartbeat">Resume</a></Link><Link href="/contact"><a class="nav-tab heartbeat">Contact</a></Link><span class="nav-tab-slider"></span></div>
+      
+      {/* <div class="nav-container"><Link href="/about"><a class="nav-tab heartbeat">About</a></Link><Link href="/resume"><a class="nav-tab heartbeat">Resume</a></Link><Link href="/contact"><a class="nav-tab heartbeat">Contact</a></Link><span class="nav-tab-slider"></span></div> */}
       </sectio>
     
     </motion.div>

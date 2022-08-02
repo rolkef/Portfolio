@@ -19,7 +19,7 @@ const ParticleBackground = () => {
                 autoplay={true}
                 options={{
                     background: {
-                        color: "#1e1f26",
+                        color: "#1C1924",
                     },
                     image: "",
                     position: "50% 50%",
@@ -212,7 +212,7 @@ const ParticleBackground = () => {
                             }
                         },
                         color: {
-                            value: ["#57a639", "#ffffff", "#8b50e2"],
+                            value: ["#47D7EF", "#EEEEEE", "#50A5BF"],
                             animation: {
                                 h: {
                                     count: 0,
