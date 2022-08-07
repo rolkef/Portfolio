@@ -7,6 +7,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import Layout from "../components/Layout";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import NextNProgress from "nextjs-progressbar";
 
 
 
@@ -23,6 +24,7 @@ function MyApp({ Component, pageProps, router}) {
   <Layout
     title="Christopher Rolke - Developer, Visionary and Creator">
     <AnimatePresence exitBeforeEnter>
+      <NextNProgress />
       <Component
         key={router.route}
         {...pageProps}

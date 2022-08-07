@@ -180,6 +180,7 @@ section {
   opacity: 0;
   transition: ease-in-out 0.4s;
   z-index: 2;
+  text-align: center;
 }
 
 section.section-show {
@@ -190,8 +191,9 @@ section.section-show {
 }
 
 section .container {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.76);
   padding: 30px;
+  display: inline-block;
 }
 
 @media (max-width: 768px) {
@@ -221,7 +223,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #4ceb95;
+  background: #47D7EF;
   margin: 4px 10px;
 }
 
@@ -238,10 +240,15 @@ section .container {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+
+.about-me .content {
+  text-align: left;
+}
+
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #18d26e;
+  color: #47D7EF;
 }
 
 .about-me .content ul {
@@ -262,12 +269,109 @@ section .container {
 .about-me .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #18d26e;
+  color: #47D7EF;
   line-height: 0;
 }
 
 .about-me .content p:last-child {
   margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Skills
+--------------------------------------------------------------*/
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+.skills .progress .skill {
+  margin: 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.skills .progress .skill {
+  font-size: 14px;
+  color: #fff;
+  padding-bottom: 0%;
+  text-align: left;
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.skills .progress-bar {
+  height: 10px;
+  background-color: #217486;
+}
+
+
+
+.skills .progress-bar.load100 {
+  transform-origin: left;
+  animation: loading100 3s ease-in-out;
+}
+
+.skills .progress-bar.load90 {
+  transform-origin: left;
+  animation: loading100 3s ease-in-out;
+  max-width: 90%;
+}
+
+.skills .progress-bar.load85 {
+  transform-origin: left;
+  animation: loading100 3s ease-in-out;
+  max-width: 85%;
+}
+
+.skills .progress-bar.load80 {
+  transform-origin: left;
+  animation: loading100 3s ease-in-out;
+  max-width: 80%;
+}
+
+.skills .progress-bar.load75 {
+  transform-origin: left;
+  animation: loading100 3s ease-in-out;
+  max-width: 75%;
+}
+
+.skills .progress-bar.load70 {
+  transform-origin: left;
+  animation: loading100 3s ease-in-out;
+  max-width: 70%;
+}
+
+.skills .progress-bar.load60 {
+  transform-origin: left;
+  animation: loading100 3s ease-in-out;
+  max-width: 60%;
+}
+
+
+
+
+@keyframes loading100{
+  0% {
+    opacity: 1;
+    transform: scaleX(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scaleX(1);
+  }
 }
 
 @-webkit-keyframes loading {
