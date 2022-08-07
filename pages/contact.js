@@ -1,19 +1,17 @@
-import Link from 'next/link';
 import Layout from '../components/Layout';
 import { useRouter } from 'next/router';
-import { motion } from 'framer-motion';
-import Image from 'next/image';
-import logo from '../images/Logo.svg';
+import Navbar from '../components/Navbar';
 
 
-// import styles from '../styles/Home.module.css';
-
-export default function Contact() {
+export default function Resume() {
     const router = useRouter();
-    const currentRoute = router.pathname;
+    const noNav = ["/", ""];
     return (
-        <Layout title="Christopher Rolke - About">
-            
-        </Layout>
+        <>
+            <Layout title="Christopher Rolke - Contact">
+                {noNav.includes(router.pathname) ? null : <Navbar/>}
+                
+            </Layout>
+        </>
     )
 }
