@@ -1,9 +1,9 @@
 import Link from 'next/link';
-import ContainerBlock from '../components/ContainerBlock';
+import Layout from '../components/Layout';
 
 export default function FourOhFour() {
     return <>
-        <ContainerBlock>
+        <Layout>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
                 <div className='col-span-1'>
                     <h1 className='text-white'>404</h1>
@@ -15,6 +15,6 @@ export default function FourOhFour() {
                     <button>Go Home</button>
                 </a>
             </Link>
-        </ContainerBlock>
+        </Layout>
     </>
 }

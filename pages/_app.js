@@ -1,17 +1,26 @@
 import "../styles/globals.css";
 import { ThemeProvider } from "next-themes";
-import Head from "next/head";
 import ParticleBackground from "../components/particleBackground";
 import { AnimatePresence } from "framer-motion";
-import ContainerBlock from "../components/ContainerBlock";
-import React from "react";
+import React, { useEffect } from "react";
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import Layout from "../components/Layout";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 
-function MyApp({ Component, pageProps, router }) {
 
+function MyApp({ Component, pageProps, router}) {
+  useEffect(() => {
+    AOS.init({
+      easing: "ease-out-cubic",
+      once: true,
+      offset: 50,
+    });
+  }, []);
   return (
-  <ContainerBlock
+  <Layout
     title="Christopher Rolke - Developer, Visionary and Creator">
     <AnimatePresence exitBeforeEnter>
       <Component
@@ -20,7 +29,7 @@ function MyApp({ Component, pageProps, router }) {
       />
       <ParticleBackground/>
     </AnimatePresence>
-  </ContainerBlock>
+  </Layout>
   );
 }
 

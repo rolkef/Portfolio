@@ -1,9 +1,10 @@
 import React from "react";
 import Head from "next/head";
 import { useRouter } from "next/router";
+import Navbar from "./Navbar";
 
 
-export default function ContainerBlock({ children, ...customMeta }) {
+export default function Meta({ children, ...customMeta }) {
     const router = useRouter();
 
     const meta = {
@@ -13,8 +14,9 @@ export default function ContainerBlock({ children, ...customMeta }) {
         type: "website",
         ...customMeta,
     };
+    const noNav = ["/", ""];
     return (
-        <div>
+        <>
             <Head>
                 <title>{meta.title}</title>
                 <meta name="robots" content="follow, index" />
@@ -27,6 +29,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
                     rel="canonical"
                     href={`https://rolke.net${router.asPath}`}
                 />
+                
                 <meta property="og:type" content={meta.type} />
                 <meta property="og:site_name" content="Christopher Rolke" />
                 <meta property="og:description" content={meta.description} />
@@ -41,10 +44,8 @@ export default function ContainerBlock({ children, ...customMeta }) {
                     <meta property = "article:published_time" content={meta.date} />
                 )}
             </Head>
+            <main>{children}</main>
             
-            < main className = "relative flex flex-col min-h-screen overflow-hidden" >
-                <div>{children}</div>
-            </main>
-        </div>
+        </>
     );
 }

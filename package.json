@@ -8,6 +8,7 @@
   "dependencies": {
     "animejs": "^3.2.1",
     "aos": "^3.0.0-beta.6",
+    "bootstrap-icons": "^1.9.1",
     "framer-motion": "^6.5.1",
     "next": "latest",
     "next-themes": "^0.2.0",
