@@ -7,6 +7,7 @@ import HeroImage from "../images/Profilbild.jpeg"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Image from 'next/image';
+import { mdiBrush } from '@mdi/js';
 
 
 // import styles from '../styles/Home.module.css';
@@ -24,9 +25,9 @@ export default function About() {
                             <h2 className='text-left'>About</h2>
                             <p className='text-left'>Learn more about me</p>
                         </div>
-                        <div className="grid grid-cols-3 gap-1">
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-1">
                             <div className='col-span-1' data-aos="fade-right">
-                                <Image src={HeroImage} height={390} width={300} />
+                                <Image id="image" draggable="false" src={HeroImage} height={390} width={300} />
                                 
                             </div>
                             <div className="content col-span-2" data-aos="fade-left">
@@ -141,7 +142,40 @@ export default function About() {
                         <div className="section-title">
                             <h2 className='text-left'>Interests</h2>
                         </div>
-
+                        <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 grid-rows-auto gap-5">
+                            <div className="icon-box">
+                                <i className="bi bi-airplane-engines-fill text-cyan-400 mr-4"></i>
+                                <h3>Traveling</h3>
+                            </div>
+                            <div className="icon-box">
+                                <i className = "bi bi-body-text text-pink-500 mr-4" > </i>
+                                <h3>Developing</h3>
+                            </div>
+                            <div className="icon-box">
+                                <i className="bi bi-chat-dots-fill text-violet-600 mr-4"></i>
+                                <h3>Socializing</h3>
+                            </div>
+                            <div className="icon-box">
+                                <i className="bi bi-music-note-beamed text-rose-600 mr-4"></i>
+                                <h3>Music</h3>
+                            </div>
+                            <div className="icon-box">
+                                <i className="bi bi-brush-fill text-orange-400 mr-4"></i>
+                                <h3>Designing</h3>
+                            </div>
+                            <div className="icon-box">
+                                <i className="bi bi-water text-blue-700 mr-4"></i>
+                                <h3>Swimming</h3>
+                            </div>
+                            <div className="icon-box">
+                                <i className="bi bi-bar-chart-fill text-green-500 mr-4"></i>
+                                <h3>Data Analytics</h3>
+                            </div>
+                            <div className="icon-box">
+                                <i className="bi bi-cpu-fill text-yellow-400 mr-4"></i>
+                                <h3>Machine Learning</h3>
+                            </div>
+                        </div>
                     </div>
                 </section>
             </Layout>
