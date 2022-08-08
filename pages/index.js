@@ -6,6 +6,7 @@ import AnimatedText from '../components/AnimatedText';
 
 // import styles from '../styles/Home.module.css';
 
+
 export default function Home() {
   const [replay, setReplay] = React.useState(true);
 

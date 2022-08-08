@@ -1,6 +1,8 @@
 # Created by https://www.toptal.com/developers/gitignore/api/windows,react,nextjs,node,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,react,nextjs,node,visualstudiocode
 
+.env*.local
+
 ### NextJS ###
 # Dependencies
 /node_modules

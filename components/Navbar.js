@@ -40,28 +40,6 @@ export default function Navbar(){
                             </li>
                         </ul>
                     </div>
-                    <div className='bootstrap-icons'>
-                        <div className="text-center ">
-                            <ul>
-                                <li id="icon">
-                                    <a href="https://www.linkedin.com/in/christopher-rolke/">
-                                        <i className="bi bi-linkedin mr-1"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href='https://github.com/rolkef'>
-                                        <i className="bi bi-github mr-1 h-1"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href='https://twitter.com/rolkef'>
-                                        <i className="bi bi-twitter"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                            
-                        </div>
-                    </div>
                 </div>
             </nav>
         </>
