@@ -45,8 +45,10 @@ export default function About() {
                                     <li><i class="bi bi-chevron-right"></i> <strong className='text-white'>Email:</strong> <span className='text-white'>christopher.rolke@edu.fh-joanneum.at</span></li>
                                 </ul>
                                 <p className='text-white'>
-                                    Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-                                    Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
+                                    Hi, my name is Christopher Rolke and I am currently studying Business Informatics in the Master's program at FH JOANNEUM in Graz. Besides my studies I work in the project management department at AVL List in Graz. I count myself as a highly motivated and future-oriented project manager and software developer whose passion is developing and managing intuitive, efficient, and user-friendly software.
+                                </p>
+                                <p className='text-white'>
+                                    My goal is to make the future easier, more efficient and more beautiful.I would like to achieve this in cooperation with different companies working on exciting and future - oriented projects.
                                 </p>
                             </div>
                         </div>
@@ -160,8 +162,8 @@ export default function About() {
                                 <h3>Music</h3>
                             </div>
                             <div className="icon-box">
-                                <i className="bi bi-brush-fill text-orange-400 mr-4"></i>
-                                <h3>Designing</h3>
+                                <i className="bi bi-file-person-fill text-yellow-400 mr-4"></i>
+                                <h3>Beekeeping</h3>
                             </div>
                             <div className="icon-box">
                                 <i className="bi bi-water text-blue-700 mr-4"></i>
@@ -172,7 +174,7 @@ export default function About() {
                                 <h3>Data Analytics</h3>
                             </div>
                             <div className="icon-box">
-                                <i className="bi bi-cpu-fill text-yellow-400 mr-4"></i>
+                                <i className="bi bi-cpu-fill text-orange-400 mr-4"></i>
                                 <h3>Machine Learning</h3>
                             </div>
                         </div>
