@@ -29,6 +29,8 @@ export default function Meta({ children, ...customMeta }) {
                     rel="canonical"
                     href={`https://rolke.net${router.asPath}`}
                 />
+                <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet"/>
+                <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet"/>
                 
                 <meta property="og:type" content={meta.type} />
                 <meta property="og:site_name" content="Christopher Rolke" />
