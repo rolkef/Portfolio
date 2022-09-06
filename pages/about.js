@@ -36,19 +36,19 @@ export default function About() {
                                     I am a programmer and project manager whose mission is to shape the future.
                                 </p><br></br>
                                 <ul>
-                                    <li><i class="bi bi-chevron-right"></i> <strong className='text-white'>Birthday:</strong> <span className='text-white'>31 August 2000</span></li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong className='text-white'>City:</strong> <span className='text-white'>Graz, Austria</span></li>
+                                    <li><i className="bi bi-chevron-right"></i> <strong className='text-white'>Birthday:</strong> <span className='text-white'>31 August 2000</span></li>
+                                    <li><i className="bi bi-chevron-right"></i> <strong className='text-white'>City:</strong> <span className='text-white'>Graz, Austria</span></li>
                                 </ul>
                                 <ul>
-                                    <li><i class="bi bi-chevron-right"></i> <strong className='text-white'>Age:</strong> <span className='text-white'>21</span></li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong className='text-white'>Degree:</strong> <span className='text-white'>Bachelor</span></li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong className='text-white'>Email:</strong> <span className='text-white'>christopher.rolke@edu.fh-joanneum.at</span></li>
+                                    <li><i className="bi bi-chevron-right"></i> <strong className='text-white'>Age:</strong> <span className='text-white'>21</span></li>
+                                    <li><i className="bi bi-chevron-right"></i> <strong className='text-white'>Degree:</strong> <span className='text-white'>Bachelor</span></li>
+                                    <li><i className="bi bi-chevron-right"></i> <strong className='text-white'>Email:</strong> <span className='text-white'>christopher.rolke@edu.fh-joanneum.at</span></li>
                                 </ul>
                                 <p className='text-white'>
                                     Hi, my name is Christopher Rolke and I am currently studying Business Informatics in the Master's program at FH JOANNEUM in Graz. Besides my studies I work in the project management department at AVL List in Graz. I count myself as a highly motivated and future-oriented project manager and software developer whose passion is developing and managing intuitive, efficient, and user-friendly software.
                                 </p>
                                 <p className='text-white'>
-                                    My goal is to make the future easier, more efficient and more beautiful.I would like to achieve this in cooperation with different companies working on exciting and future - oriented projects.
+                                    My goal is to make the future easier, more efficient and more beautiful.I would like to achieve this in cooperation with different companies working on exciting and future oriented projects.
                                 </p>
                             </div>
                         </div>

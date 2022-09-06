@@ -48,11 +48,11 @@ export default function Resume( {KEY} ) {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                             <div className = "col-span-1 flex items-stretch text-left" >
                                 <div className="info-box">
-                                    <i class="bx bi-share-fill"></i>
+                                    <i className="bx bi-share-fill"></i>
                                     <h3>Social Profiles</h3>
                                     <div className='social-links'>
                                         <a className='social linkedin' href='https://www.linkedin.com/in/christopher-rolke/'><i className="bi bi-linkedin"></i></a>
-                                        <a className='social twitter' href="https://twitter.com/rolkef"><i class="bi bi-twitter"></i></a>
+                                        <a className='social twitter' href="https://twitter.com/rolkef"><i className="bi bi-twitter"></i></a>
                                         <a className='social github' href="https://github.com/rolkef">
                                         <i className="bi bi-github"></i></a>
                                     </div>
@@ -60,7 +60,7 @@ export default function Resume( {KEY} ) {
                             </div>
                             <div className = "col-span-1 text-left" >
                                 <div className="info-box">
-                                    <i class="bx bi-envelope-fill"></i>
+                                    <i className="bx bi-envelope-fill"></i>
                                     <h3>Email Me</h3>
                                     <p>christopher.rolke@edu.fh-joanneum.at</p>
                                 </div>
