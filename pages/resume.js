@@ -20,7 +20,7 @@ export default function Resume() {
                         <div className="row">
                             <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
                                 <div className="col-span-1" data-aos="fade-rigt">
-                                    <h3 className='resume-title'>Sumary</h3>
+                                    <h3 className='resume-title'>Summary</h3>
                                     <div className='resume-item pb-0'>
                                         <h4>Christopher Rolke</h4>
                                         <p><em>
