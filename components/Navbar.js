@@ -1,14 +1,9 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { motion } from 'framer-motion';
 import Image from 'next/image';
 import logo from '../images/Logo.svg';
 import React, { useState } from 'react';
-import {
-    Bars3Icon,
-    BellIcon,
-    XMarkIcon
-} from '@heroicons/react/24/outline'
+
 
 export default function Navbar(){
     const router = useRouter();
