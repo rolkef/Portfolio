@@ -2,9 +2,10 @@ import React from "react";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import Navbar from "./Navbar";
+import Script from "next/script";
 
 
-export default function Meta({ children, ...customMeta }) {
+export default function Meta({ children, KEY, ...customMeta }) {
     const router = useRouter();
 
     const meta = {
@@ -45,9 +46,20 @@ export default function Meta({ children, ...customMeta }) {
                 {meta.date && (
                     <meta property = "article:published_time" content={meta.date} />
                 )}
+                <Script data-goatcounter={KEY} src="//gc.zgo.at/count.js" async>
+                </Script>
             </Head>
             <main>{children}</main>
             
         </>
     );
+}
+
+export async function getStaticProps() {
+    const key = process.env.Goat;
+    return {
+        props: {
+            KEY: key,
+        },
+    };
 }
